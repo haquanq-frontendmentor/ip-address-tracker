@@ -29,7 +29,9 @@
     --color-*: initial;
     --color-gray-950: hsl(0, 0%, 17%);
     --color-gray-400: hsl(0, 0%, 58%);
+
     --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
 
     --font-*: initial;
     --font-weight-*: initial;
