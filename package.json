@@ -1,5 +1,8 @@
 {
   "name": "ip-address-tracker",
+  "description": "Solution for frontendmentor.io challenge: ip-address-tracker",
+  "author": "haquanq",
+  "license": "MIT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
