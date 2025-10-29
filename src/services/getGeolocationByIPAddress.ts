@@ -22,7 +22,7 @@ export type BadGeolocationQuery = {
 };
 
 export const getGeolocationByIPAddress = async (address: string) => {
-    const res = await fetch("http://ip-api.com/json/" + address);
+    const res = await fetch("https://free-ip-to-geolocation.habuiquang989.workers.dev/geolocation?address=" + address);
 
     if (res.status === 419) {
         return {
